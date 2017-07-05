@@ -12,8 +12,6 @@ def stock_picker(stock_prices)
 end
 
 class Deal
-  attr_reader :day_to_buy, :day_to_sell
-  
   def initialize(day_to_buy, day_to_sell, stock_prices)
     @day_to_buy, @day_to_sell, @stock_prices = day_to_buy, day_to_sell, stock_prices
   end
